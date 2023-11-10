@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import Sample
+import Sample 
 struct ContentView: View {
     var body: some View {
         VStack {
