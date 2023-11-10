@@ -8,7 +8,11 @@
 import Foundation
 
 public class HelloWorld {
+    
+    public init() {}
+    
     public func print() -> String {
         return "Hello World"
     }
+    
 }
