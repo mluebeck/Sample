@@ -1,1 +1,1 @@
-Sample Code for building an app with an own sample macOS framework. You use a workspace to put the framework and the app project together
+Sample Code for building an app with an own sample macOS framework. You use a workspace to put the framework and the app project together. Why do you want to do that? To separate model/business logic code from iOS UI Code. The business code lives in its own project/framework, so it can be tested independently from the iOS project. business code Unittests will run faster, because no simulator is needed. 
